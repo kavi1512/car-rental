@@ -1,0 +1,113 @@
+/* Footer Styles */
+
+.footer {
+    background-color: #000; /* Dark black */
+    color: #fff; /* White text */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    }
+    
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+    }
+    
+    .footer-column {
+    flex: 1;
+    min-width: 200px;
+    }
+    
+    .footer-heading {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    
+    .quick-links-subheading,
+    .legal-subheading,
+    .contact-subheading,
+    .follow-subheading {
+    display: none;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .footer ul li {
+    margin: 5px 0;
+    }
+    
+    .footer a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    .footer a:hover {
+    text-decoration: underline;
+    }
+    
+    .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .social-item {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    }
+    
+    .social-item i {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+    }
+    
+    .social-item:hover i {
+    color: orange;
+    }
+    
+    .social-item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    }
+    
+    .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 10px;
+    }
+    
+    .footer-bottom .moto {
+    font-size: 17px;
+    color: orange;
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+    
+    .footer-bottom .copyright {
+    color: #ccc; /* Dim white */
+    margin-top: 5px;
+    }
+    
+    /* Added styles for phone icons */
+    
+    .fas.fa-phone,
+    .fas.fa-phone-square-alt,
+    .fas.fa-envelope {
+    margin-right: 5px;
+    font-size: 16px;
+    }
